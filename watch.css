@@ -1,0 +1,28 @@
+            @font-face {
+                font-family: "Mistral Regular";
+                src: url("/font/Mistral") format("woff");
+            }
+            
+            .head_container {
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+            }
+            
+            .head {
+                font-family: "Mistral Regular";
+                color: white;
+                font-size: 90px;
+                font-weight: lighter;
+                text-decoration: none;
+            }
+            
+            .head:hover {
+                color: gray;
+            }
+            
+            .movie_container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
