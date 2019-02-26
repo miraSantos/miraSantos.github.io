@@ -1,0 +1,19 @@
+.subtitle {
+    font-style: italic;
+}
+
+.flexible-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.small-box {
+    width: 30%;
+    height: 450px;
+}
+
+.small-box img {
+    width: 100%;
+}

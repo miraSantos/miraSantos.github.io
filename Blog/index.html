@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mira's Blog</title>
+    <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+
+<div>
+    <h1>Reflection on Creating a Website for 30 MFF (26 Feb 2019) </h1>
+    <h2><span class="subtitle">Project Description:</span> what is the project, what is the overall concept and theme, and what kind of experience you were striving to create. </h2>
+    <p>I created a website for the Coffee Mixer movie that Wani, Keith and I created in the Communications Lab class. The movie was about a guy who mistakes someone else’s coffee cup for his and gets into an argument about it. The barista comes in with his
+        original cup of coffee to resolve the argument. I made the theme a desk where someone might be drinking coffee and working. I wanted to put the user in the character’s point of view. I wanted to create a simple experience about being at a desk
+        drinking coffee and working that feels straightforward. There would be items on the desk like a coffee cup, a laptop and a pair of headphones that the user could click on to listen to music from the film and meet the creators.</p>
+    <h2> <span class="subtitle">Process:</span> How did you go about implementing the concept. </h2>
+    <p>At first my wireframe was a more like a traditional website, but I then I had this idea of making the background a desk. So I went to Blacksmith and filmed a top-down view of a desk with a cup of coffee, working papers, a phone and pair of headphones
+        it at each corner. Then I had this idea that to transition to another page the objects could move out of the frame, so I asked Steven to help me move the items out of the frame in a short video. I wrote up the html code and made the desk the background.
+        I placed text over each object: 'read' over the papers, 'meet' over the coffee mug, 'listen' over the headphones, 'watch' over the phone. I placed the title of the movie in the center of the page. The user can click on each piece of text and navigate
+        to a different page. For the 'read' page a I put in some text explaining the movie. For the 'meet' page, I put in bios of the creators in flex boxes. For the 'listen' page, I put embedded a spotify playlist with the iframe tag. For the 'watch'
+        page, I embedded a youtube iframe of the movie. To make the transition where the objects move out of the frame, I made the background image hide to expose the animated gif of the objects moving out of the frame that I shot earlier. I set a 400
+        millisecond timeout for the computer to wait until the gif played to navigate to the page the user clicked on. I did this all with jquery (God Bless jquery!!!).</p>
+    <h2><span class="subtitle">Reflection/Evaluation:</span> This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version. </h2>
+    <p>My expectations were all met when I looked at the site locally. When I uploaded the site online, there was a huge lag that delayed the transition. I wish I had more time to fix this, but I’m not sure how I would even start.</p>
+</div>
+<h1>Three Images...</h1>
+<div class="flexible-container">
+    <div class="small-box">
+        <img src="images/woman-funeral.jpeg">
+        <p>She is mourning her spouse. </p>
+    </div>
+    <div class="small-box">
+        <img src="images/woman-alone.jpeg">
+        <p>She is depressed and goes travelling.</p>
+    </div>
+    <div class="small-box">
+        <img src="images/couple-hands.jpeg">
+        <p> She finds someone new. </p>
+    </div>
+</div>
+
+<h1>Those Three Images Rearranged</h1>
+<div class="flexible-container">
+    <div class="small-box">
+        <img src="images/couple-hands.jpeg">
+        <p> A couple are in happy relationship. </p>
+    </div>
+    <div class="small-box">
+        <img src="images/woman-alone.jpeg">
+        <p>She gets sick and feels alienated. </p>
+    </div>
+    <div class="small-box">
+        <img src="images/woman-funeral.jpeg">
+        <p> Her mother is mourning her at her funeral.</p>
+    </div>
+</div>
+
+</html>
